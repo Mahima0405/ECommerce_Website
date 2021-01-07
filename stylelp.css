@@ -1,0 +1,68 @@
+*{
+    font-family: 'Redressed', cursive;
+    font-size: 18px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bags.jpg");
+    background-repeat:no-repeat;
+    background-size: 110%;
+}
+.img{
+     width: 70%;
+}
+
+.navbar, .navbar:hover, .navbar:active{
+     text-decoration: none;
+     color: black;
+ }
+
+.navicon{
+     text-align: center;
+ }
+
+ .navicon:hover{
+     cursor: pointer;
+     background-color: khaki;
+     box-shadow: 5px 5px 2px goldenrod;
+     font-weight: bold;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ .navicon:active, .active{
+      background-color:wheat;
+      box-shadow: 0px 0px goldenrod;
+    }
+
+ .form{
+     /* border: solid 2px black; */
+     width: 39%;
+     margin: auto;
+     margin-left: 55%;
+     margin-top: 8%;
+     text-align: center;
+ }
+
+ .form h1{
+     font-weight: bold;
+ }
+
+ .form input{
+     width: 80%;
+     background-color: whitesmoke;
+     border-radius: 15px;
+ }
+
+ .form .btn{
+    width: 80%;
+    height: auto;
+    background-color: red;
+    border-radius: 15px;
+ }
+
+ .form .btn:hover{
+     background-color: gray;
+     box-shadow: 2px 2px darkslategrey ;
+ }
